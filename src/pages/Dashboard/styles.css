@@ -1,0 +1,185 @@
+.container--dashboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 710px;
+  max-height: 710px;
+  min-height: 710px;
+  width: 450px;
+  max-width: 450px;
+  background-color: rgba(18, 18, 20, 0.5);
+  border-radius: 10px;
+  padding: 20px 0px;
+  gap: 10px;
+}
+
+.intro--greetings {
+  height: 15%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.intro--dashboard {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  border-bottom: 2px solid rgba(52, 59, 65, 1);
+}
+
+.logo--dashboard {
+  color: rgba(255, 87, 127, 1);
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-size: 35px;
+}
+
+.button--deslogar {
+  height: 30px;
+  width: 60px;
+  box-sizing: border-box;
+  border: 2px solid rgba(255, 255, 255, 1);
+  border-radius: 5px;
+  background-color: rgba(52, 59, 65, 1);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+}
+
+.div--greetings {
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.div--greetings > h3 {
+  color: rgba(255, 255, 255, 1);
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0px;
+}
+
+.div--greetings > span {
+  color: rgba(134, 142, 150, 1);
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0px;
+}
+
+.div--include {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.button--include {
+  width: 90%;
+  height: 45px;
+  box-sizing: border-box;
+  border: 2px solid rgb(241, 51, 96);
+  border-radius: 10px 10px 0 0;
+  background-color: rgba(255, 87, 127, 1);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+}
+
+.container--tecs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(33, 37, 41, 1);
+  width: 90%;
+  max-height: 420px;
+  overflow-y: scroll;
+  border-radius: 10px;
+  gap: 5px;
+}
+
+.container--tecs > h3 {
+  color: rgba(255, 255, 255, 1);
+  font-size: 20px;
+  width: 75%;
+  max-width: 350px;
+  font-weight: 700;
+  margin: 0px;
+  padding: 10px 0;
+  position: fixed;
+  background-color: rgba(33, 37, 41, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container--tecs > ul {
+  margin-top: 45px;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  padding: 0px;
+  gap: 5px;
+}
+
+.container--tecs > ul > li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  height: 50px;
+  box-sizing: border-box;
+  border: 1px solid rgba(18, 18, 20, 1);
+  padding-right: 5px;
+  padding-left: 10px;
+  background-color: rgba(52, 59, 65, 1);
+  border-radius: 5px;
+  list-style: none;
+}
+.container--tecs > ul > li:hover {
+  filter: brightness(150%);
+}
+
+.container--tecs > ul > li > .title--li {
+  color: rgba(255, 255, 255, 1);
+  font-weight: 500;
+  width: 150px;
+  max-width: 150px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.container--tecs > ul > li > div {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.container--tecs > ul > li > div > .status--li {
+  color: rgba(134, 142, 150, 1);
+  font-weight: 500;
+}
+
+.container--tecs > ul > li > div > .button--remove--li {
+  height: 30px;
+  width: 80px;
+  box-sizing: border-box;
+  border: 2px solid rgba(255, 255, 255, 1);
+  border-radius: 5px;
+  background-color: rgba(52, 59, 65, 1);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+}

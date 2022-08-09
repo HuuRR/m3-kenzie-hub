@@ -1,0 +1,103 @@
+.container--modal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(33, 37, 41, 1);
+  width: 90%;
+  border-radius: 0 0 10px 10px;
+  padding: 10px 0;
+}
+.form--modal {
+  display: flex;
+  flex-direction: column;
+}
+.div--inputs {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.div--modal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  height: 40px;
+}
+
+.div--modal > .input-- {
+  padding-left: 5px;
+  padding-right: 10px;
+  height: 30px;
+  width: 200px;
+  background-color: rgba(52, 59, 65, 1);
+  box-sizing: border-box;
+  border: 1px solid rgba(248, 249, 250, 1);
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  color: rgba(248, 249, 250, 1);
+}
+
+.div--modal > .input- {
+  padding-left: 5px;
+  padding-right: 10px;
+  height: 30px;
+  width: 150px;
+  background-color: rgba(52, 59, 65, 1);
+  box-sizing: border-box;
+  border: 1px solid rgba(248, 249, 250, 1);
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  color: rgba(248, 249, 250, 1);
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:focus {
+  transition: background-color 600000s 0s, color 600000s 0s;
+}
+.erro--modal {
+  color: rgba(240, 10, 10, 0.623);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.buttons--modal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  padding-top: 5px;
+}
+
+.add {
+  height: 30px;
+  width: 80px;
+  box-sizing: border-box;
+  border: 2px solid rgb(241, 51, 96);
+  border-radius: 5px;
+  background-color: rgba(255, 87, 127, 1);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+}
+
+.cancel {
+  height: 30px;
+  width: 80px;
+  box-sizing: border-box;
+  border: 2px solid rgba(255, 255, 255, 1);
+  border-radius: 5px;
+  background-color: rgba(52, 59, 65, 1);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+}

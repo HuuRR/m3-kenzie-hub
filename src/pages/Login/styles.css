@@ -1,0 +1,106 @@
+.container--login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 620px;
+  max-height: 620px;
+  min-height: 400px;
+  width: 90%;
+  max-width: 432px;
+  background-color: rgba(33, 37, 41, 1);
+  border-radius: 10px;
+  padding: 20px 0px;
+}
+
+.logo--home {
+  color: rgba(255, 87, 127, 1);
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-size: 35px;
+}
+
+.container--intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 50px;
+  width: 90%;
+  max-width: 420px;
+}
+
+.intro--login {
+  color: rgba(248, 249, 250, 1);
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0px;
+}
+
+.form--login {
+  height: 70%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.div--input--login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  height: 70px;
+}
+
+.input--login {
+  padding-left: 10px;
+  height: 40px;
+  width: 90%;
+  background-color: rgba(52, 59, 65, 1);
+  box-sizing: border-box;
+  border: 1px solid rgba(248, 249, 250, 1);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  color: rgba(248, 249, 250, 1);
+}
+input:-webkit-autofill,
+input:-webkit-autofill:focus {
+  transition: background-color 600000s 0s, color 600000s 0s;
+}
+
+.erro--login {
+  margin-top: 5px;
+  color: rgba(240, 10, 10, 0.623);
+}
+
+.button--login {
+  width: 82%;
+  height: 60px;
+  box-sizing: border-box;
+  border: 2px solid rgb(241, 51, 96);
+  border-radius: 5px;
+  background-color: rgba(255, 87, 127, 1);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+}
+
+.div--cadastrar {
+  height: 20%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.div--cadastrar > span {
+  font-size: 16px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 1);
+}
